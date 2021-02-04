@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<elements>
+
+
+-<info>
+
+
+-<update version="0.0.1">
+
+<file url="indexurl" name="race-myconid.xml"/>
+
+</update>
+
+</info>
+
+
+-<element name="Myconid" id="ID_AW_OOTD_RACE_MYCONID" source="Vixes Compendium" type="Race">
+
+
+-<description>
+
+<p class="flavor">Ranging anywhere from 4 to 6 feet Myconids are brightly coloured fungi creatures who come in all shapes and sizes.Their physical features vary greatly from circle to circle and even within the circles themselves. The inside of a myconid has a soft texture similar to that of a mushroom however their bones are near the surface, and are hard and have a seemingly metallic feel. Because of their fungi origins myconids are very light, however, their endoskeleton does contribute something and they are usually between 20-30 pounds (9 to 14 kg) Though they are of a similar height to humans they are slow to move, however, their tough natural hide makes up for the disadvantage. All myconids have an aversion to sunlight and most do not wear clothes.</p>
+
+<h4>History</h4>
+
+<p>Not much is known about myconid history as it is passed down telepathically from generation to generation, and not generally shared with outsiders.</p>
+
+<h4>Society</h4>
+
+<p>Myconids live in the underdark in various colonies called circles, a circle consists of twenty or more myconids who live together work together and meld together. A meld is usually presided over by a sovereign which is the largest in the myconid colony. A sovereign can preside over multiple circles. myconids are intelligent fungi who seek enlightenment and deplore violence. When approached peacefully myconids will very happily allow safe passage provide shelter and give advice about the surrounding area. Most time spent in a circle is devoted to melding. A meld is a form of communal meditation in which myconids are able to transcend their boring underground existence. The myconids have special spores called rapport spores which are used to communicate telepathically. During a meld, they use these spores to bind into a group consciousness. Hallucinogenic spores are then introduced to create a shared dream which provides social interaction and entertainment. Many myconids consider this to be the sole purpose of their existence. They meld in pursuit of collective union spiritual apotheosis and higher consciousness. Myconids reproduce through carefully controlled sporing so as to not overpopulate the colony. </p>
+
+<h4>Names</h4>
+
+<p>Myconids do not identify as one sex or the other and thus do not have male or female names. Because myconids usually communicate telepathically, they do not have names for each other, however, members of other races who are not as fond of telepathic communication will give names to their myconid friends. Thus nicknames vary greatly
+
+
+-<p>
+
+<span class="feature">Names:</span>
+Jamar, Marly, Hendrix, Jenika, Manson, Psyllie, Psybie. 
+</p>
+
+<h4>MYCONID TRAITS</h4>
+
+<p>Myconids have the following racial traits.</p>
+
+
+-<p>
+
+<span class="feature">Ability Score Increase.</span>
+Your Wisdom score increases by 2, and your Constitution score increases by 1.
+<br/>
+
+<span class="feature">Age.</span>
+Myconid reach maturity at 6 years old and can live to be a little over 1000 with the oldest ones becoming sovereigns.
+<br/>
+
+<span class="feature">Alignment.</span>
+Most myconids are True Neutral with good myconids are fairly common and evil myconids are very rare.
+<br/>
+
+<span class="feature">Size.</span>
+Myconids range from 4 to 6 feet and weigh 70 to 120 lbs. Your size is Medium.
+<br/>
+
+<span class="feature">Speed.</span>
+Your base walking speed is 30 feet.
+<br/>
+
+<span class="feature">Language.</span>
+You can understand, read and write Common and Undercommon but not speak it.
+<br/>
+
+<span class="feature">Superior Darkvision.</span>
+Accustomed to the darkness of the underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colours in darkness, only shades of grey.
+<br/>
+
+<span class="feature">Sun Sickness.</span>
+While in direct sunlight, unless otherwise concealed, you have disadvantage on Strength, Dexterity and Constitution based ability checks, attack rolls, and saving throws.
+<br/>
+
+<span class="feature">Pacifiying Spores.</span>
+As an action, you can eject spores at one creature you can see within 15 foot of you. The target must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or be stunned for 1 minute or until it takes damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You regain use of this trait once you have completed a short or long rest.
+<br/>
+
+<span class="feature">Rapport Spores.</span>
+You may as an action, extend rapport spores in a 20-foot radius. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour. 
+<br/>
+
+<span class="feature">Animating Spores.</span>
+As an action, you can target one corpse of a humanoid or a Large or smaller beast within 5 feet and releases spores at the corpse. In 24 hours, the corpse rises as a spore servant(MM p.231). The corpse stays animated for 1d4 + 1 days or until destroyed, and it can't be animated again in this way. You can only have one spore servant at a time. You regain spent use of this trait when you complete a long rest.
+Languages. You can understand, read and write Common and Undercommon but not speak it.
+<br/>
+
+</p>
+
+</description>
+
+<sheet display="false" alt="Myconid"/>
+
+
+-<setters>
+
+<set name="names" type="custom">Jamar, Marly, Hendrix, Jenika, Manson, Psyllie, Psybie.</set>
+
+<set name="names-format">{{name}}</set>
+
+<set name="height">7'</set>
+
+<set name="weight">300 lb.</set>
+
+</setters>
+
+
+-<rules>
+
+<stat name="wisdom" value="2"/>
+
+<stat name="constitution" value="1"/>
+
+<stat name="innate speed" value="30" bonus="base"/>
+
+<grant id="ID_SIZE_MEDIUM" type="Size"/>
+
+<grant id="ID_LANGUAGE_COMMON" type="Language"/>
+
+<grant id="ID_LANGUAGE_UNDERCOMMON" type="Language"/>
+
+<grant id="ID_AW_OOTD_RACIAL_TRAIT_MYCONID_SUPERIOR_DARKVISION" type="Racial Trait"/>
+
+<grant id="ID_AW_OOTD_RACIAL_TRAIT_MYCONID_SUN_SICKNESS" type="Racial Trait"/>
+
+<grant id="ID_AW_OOTD_RACIAL_TRAIT_MYCONID_PACIFYING_SPORES" type="Racial Trait"/>
+
+<grant id="ID_AW_OOTD_RACIAL_TRAIT_MYCONID_RAPPORT_SPORES" type="Racial Trait"/>
+
+<grant id="ID_AW_OOTD_RACIAL_TRAIT_MYCONID_ANIMATING_SPORES" type="Racial Trait"/>
+
+</rules>
+
+</element>
+
+
+-<element name="Superior Darkvision" id="ID_AW_OOTD_RACIAL_MYCONID_SUPERIOR_DARKVISION" source="Vixes Compedium" type="Racial Trait">
+
+
+-<description>
+
+<p>Accustomed to the darkness of the underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colours in darkness, only shades of grey.</p>
+
+</description>
+
+
+-<sheet>
+
+<description>Accustomed to the darkness of the underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colours in darkness, only shades of grey.</description>
+
+</sheet>
+
+</element>
+
+
+--<element name="Sun Sickness" id="ID_AW_OOTD_RACIAL_MYCONID_SUN_SICKNESS" source="Vixes Compedium" type="Racial Trait">
+
+
+-<description>
+
+<p>While in direct sunlight, unless otherwise concealed, you have disadvantage on Strength, Dexterity and Constitution based ability checks, attack rolls, and saving throws.</p>
+
+</description>
+
+
+-<sheet>
+
+
+-<description>
+While in direct sunlight, unless otherwise concealed, you have disadvantage on Strength, Dexterity and Constitution based ability checks, attack rolls, and saving throws.
+
+</description>
+
+</sheet>
+
+
+</element>
+
+
+-<element name="Pacifying Spores" id="ID_AW_OOTD_RACIAL_MYCONID_PACIFYING_SPORES" source="Vixes Compedium" type="Racial Trait"
+
+
+-<description>
+
+<p>As an action, you can eject spores at one creature you can see within 15 foot of you. The target must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or be stunned for 1 minute or until it takes damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You regain use of this trait once you have completed a short or long rest.</p>
+
+</description>
+
+
+-<sheet>
+
+<description>As an action, you can eject spores at one creature you can see within 15 foot of you. The target must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or be stunned for 1 minute or until it takes damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You regain use of this trait once you have completed a short or long rest.</description>
+
+</sheet>
+
+</element>
+
+
+--<element name="Rapport Spores" id="ID_AW_OOTD_RACIAL_MYCONID_RAPPORT_SPORES" source="Vixes Compedium" type="Racial Trait"
+
+
+-<description>
+
+
+-<p>
+You may as an action, extend rapport spores in a 20-foot radius. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.
+</p>
+
+</description>
+
+
+-<sheet>
+
+
+-<description>
+You may as an action, extend rapport spores in a 20-foot radius. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.
+</description>
+
+</sheet>
+
+</element>
+
+-<element name="Animating Spores" id="ID_AW_OOTD_RACIAL_MYCONID_ANIMATING_SPORES" source="Vixes Compedium" type="Racial Trait"
+
+
+-<description>
+
+
+-<p>
+As an action, you can target one corpse of a humanoid or a Large or smaller beast within 5 feet and releases spores at the corpse. In 24 hours, the corpse rises as a spore servant(MM p.231). The corpse stays animated for 1d4 + 1 days or until destroyed, and it can't be animated again in this way. You can only have one spore servant at a time. You regain spent use of this trait when you complete a long rest.
+</p>
+
+</description>
+
+
+-<sheet>
+
+
+-<description>
+As an action, you can target one corpse of a humanoid or a Large or smaller beast within 5 feet and releases spores at the corpse. In 24 hours, the corpse rises as a spore servant(MM p.231). The corpse stays animated for 1d4 + 1 days or until destroyed, and it can't be animated again in this way. You can only have one spore servant at a time. You regain spent use of this trait when you complete a long rest.
+</description>
+
+</sheet>
+
+</element>
+
+</elements>
